@@ -34,7 +34,7 @@ class Mollie_API_Client
 	/**
 	 * Version of our client.
 	 */
-	const CLIENT_VERSION = "1.4.1";
+	const CLIENT_VERSION = "1.5.0";
 
 	/**
 	 * Endpoint of the remote API.
@@ -124,7 +124,7 @@ class Mollie_API_Client
 	 * @var Mollie_API_Resource_Customers_Payments
 	 */
 	public $customers_payments;
-	
+
 	/**
 	 * RESTful Customers Mandates resource.
 	 *
