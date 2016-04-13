@@ -124,6 +124,13 @@ class Mollie_API_Client
 	 * @var Mollie_API_Resource_Customers_Payments
 	 */
 	public $customers_payments;
+	
+	/**
+	 * RESTful Customers Mandates resource.
+	 *
+	 * @var Mollie_API_Resource_Customers_Mandates
+	 */
+	public $customers_mandates;
 
 	/**
 	 * @var string
@@ -161,6 +168,7 @@ class Mollie_API_Client
 		$this->methods            = new Mollie_API_Resource_Methods($this);
 		$this->customers          = new Mollie_API_Resource_Customers($this);
 		$this->customers_payments = new Mollie_API_Resource_Customers_Payments($this);
+		$this->customers_mandates = new Mollie_API_Resource_Customers_Mandates($this);
 
 		// OAuth2 endpoints
 		$this->permissions      = new Mollie_API_Resource_Permissions($this);
