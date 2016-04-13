@@ -75,7 +75,7 @@ class Mollie_API_Object_Payment
 	/**
 	 * The payment has failed.
 	 */
-	const STATUS_REFUNDED  = "failed";
+	const STATUS_FAILED  = "failed";
 
 	/**
 	 * Recurring types.
